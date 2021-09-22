@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto', serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.homeheader {
+    text-align: center;
+    background-color: #41a8be;
+    border-radius: 0;
+    color: black;
+}
+
+#prof-pic {
+    width: 400px;
+    height: 400px;
+    border-radius: 100;
+}
+
+#projects {
+    width: 200px;
+    height: 200px;
+}
+
+#githubcat {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+#contact {
+    align-items: center;
+    text-align: center;
+}
