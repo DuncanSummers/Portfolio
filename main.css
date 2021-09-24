@@ -55,6 +55,11 @@ h5 {
     color: black;
 }
 
+#about {
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
 .img-fluid {
     width: auto;
     height: auto;
