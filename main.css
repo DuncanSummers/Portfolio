@@ -55,10 +55,13 @@ h5 {
     color: black;
 }
 
-#prof-pic {
-    width: 400px;
-    height: 400px;
+.img-fluid {
+    width: auto;
+    height: auto;
     border-radius: 2%;
+    box-shadow: 5px 10px 18px black;
+    animation-name: slide-right-fade-in;
+    animation-duration: 2.5s
 }
 
 #projects {
