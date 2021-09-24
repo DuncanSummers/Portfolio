@@ -10,6 +10,40 @@ h2 {
     font-family: 'Roboto Slab', serif;
 }
 
+h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#efa-logo {
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+@keyframes slide-right-fade-in {
+    from {
+        opacity: 0%;
+        transform: translateX(-900px)
+    }
+    to {
+        opacity: 100%;
+        transform: translateX(0px)
+    }
+}
+
+@keyframes fade-in {
+    from {opacity: 0%;}
+    to {opacity: 100%}
+}
+
+.display-4 {
+    animation-name: slide-right-fade-in;
+    animation-duration: 1.5s
+}
+.display-6 {
+    animation-name: slide-right-fade-in;
+    animation-duration: 1s
+}
+
 .homeheader {
     text-align: center;
     background-color: #41a8be;
@@ -20,17 +54,27 @@ h2 {
 #prof-pic {
     width: 400px;
     height: 400px;
-    border-radius: 100;
+    border-radius: 2%;
 }
 
 #projects {
     width: 200px;
     height: 200px;
+    border-radius: 5%;
+    margin-bottom: .5em;
+}
+#projects:hover {
+    width: 220px;
+    height: 220px;
+    box-shadow: -5px 10px 18px black;
+    border-radius: 5%;
+    margin-bottom: .5em;
 }
 
+
 #githubcat {
-    width: 40px;
-    height: 40px;
+    width: 70px;
+    height: 70px;
     border-radius: 2px;
 }
 

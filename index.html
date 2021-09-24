@@ -9,7 +9,7 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="images/favicon-16x16.png">
-    <link rel="icon" href="images/apple-touch-icon.png">
+    <link rel="icon" href="images/apple-touch-icon-2.png">
     <link rel="icon" href="images/android-chrome-192x192.png">
 
     <!-- Bootstrap CSS -->
@@ -32,7 +32,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img id="efa-nav-logo" src="images/favicon-32x32.png" class="d-inline-blcok align-top" alt="">
+                <img id="efa-nav-logo" src="images/favicon-32x32-2.png" class="d-inline-blcok align-top" alt="">
                 Duncan Summers
             </a>
             <div class="collapse navbar-collapse" id="navbar">
@@ -49,7 +49,7 @@
     <section class="homeheader">
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                <img id="efa-logo" src="images/efa-logo.png" alt="header logo">
+                <img id="efa-logo" src="images/efa-logo-2.png" alt="header logo">
                 <h1 class="display-4">Duncan Summers</h1>
                 <h3 class="display-6">Software Developer</h3>
             </div>
@@ -190,39 +190,45 @@
     <section id="contact" class="p-8 bg-secondary text-light">
         <div class="container">
             <div class="row-md-12 pt-2">
-                <h4 class="text-center"><b>Contact Info</b></h4>
+                <h4 class="section-title"><u>Contact Info</u></h4>
             </div>
             <div class="row-sm-12">
                 <h5 class="text-center">djsummers36@gmail.com</h5>
             </div>
-            <div class="row-xxl-12">
-                <div class="col-xl align-self-center">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 align-self-center">
                     <!-- Formspree.io form -->
                     <form action="https://formspree.io/f/meqvnnqj" method="POST">
-                        <div class="row">
-                            <div class="col-lg align-self-center">
-                                <label>
-                                    Your email:
-                                    <input type="email" name="_replyto">
-                                </label>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-2"><p>Your Email</p></div>
+                                <div class="col"><input type="email" class="form-control" name="_replyto" id="email" placeholder="name@example.com"></div>
                             </div>
-                        </div>
+                          </div>
                         <div class="row">
                             <div class="col-lg align-self-center">
-                                <label>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-2">Your Message</div>
+                                        <div class="col"><textarea class="form-control" rows="3"></textarea>
+                                    </div>
+                                    </div>
+                                  </div>
+                                <!-- <label>
                                     Your message:
                                     <textarea name="message"></textarea>
-                                </label>
+                                </label> -->
                                 <!-- your other form fields go here -->
-                                <button type="submit">Send</button>
+                                <div class="row align-self-end"><div class="col"><button type="submit" class="btn btn-outline-light">Send</button></div></div>
                             </div>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
         <div class="row-xl-12 py-5">
             <a class="text-center" href="https://github.com/DuncanSummers">
-                <img id="githubcat" src="images/githublogo.jfif" class="rounded" alt="My GitHub"></a>
+                <img id="githubcat" src="images/PngItem_1280311.png" class="rounded" alt="My GitHub"></a>
         </div>
         </div>
         <div class="card-footer">
