@@ -93,6 +93,14 @@ h5 {
     width: 70px;
     height: 70px;
     border-radius: 2px;
+    padding-right: 10px;
+}
+
+#linkedin {
+    width: 70px;
+    height: 70px;
+    border-radius: 2px;
+    padding-left: 10px;
 }
 
 #contact {
